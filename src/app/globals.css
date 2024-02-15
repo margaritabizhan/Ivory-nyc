@@ -1,33 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+
+@layer base {
+  body {
+    @apply bg-[#e1ddd3] text-[#604f46] tracking-wide font-tenor-sans font-normal uppercase;
   }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  h1 {
+    @apply text-5xl sm:text-6xl md:text-8xl lg:text-9xl;
   }
+
+  h3 {
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl;
+  }
+
+  h6 {
+    @apply text-xl sm:text-xl md:text-2xl lg:text-3xl;
+  }
+
+
+  li {
+    @apply cursor-pointer;
+  }
+
+  button {
+    @apply shadow-md shadow-stone-700 rounded-lg bg-[#b8a393] text-[#5c4339] p-2 uppercase;
+  }
+
 }
