@@ -11,7 +11,7 @@ export default function RootLayout({
       <head>
         <title>Ivory NYC</title>
       </head>
-      <body>{children}</body>
+      <body suppressHydrationWarning={true}>{children}</body>
     </html>
   )
 }
