@@ -26,7 +26,7 @@ const About: React.FC = () => {
         <Image src="/assets/polish.png" alt="Manicure" width={250} height={200}/>
       </div>
       <div className="flex md:w-1/2 md:mt-[100px]">
-        <p className="py-4 px-8 :text-justify lg:text-xl tracking-wider md:mt-[130px]">
+        <p className="py-4 px-8 lg:text-justify lg:text-xl tracking-wider md:mt-[130px]">
          Our commitment to providing a truly luxurious experience is reflected in every meticulous detail, ensuring that our clients bask in the extravagance of Russian-style beauty treatments. Step into IVORY, where the name signifies more than just a salon; it embodies a commitment to delivering an experience so exquisite, it is reserved for those who appreciate the extraordinary. Elevate your beauty ritual with us - IVORY, where luxury becomes a personalized masterpiece.
         </p>
       </div>
