@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar"
 import Home from "../components/Home"
 import About from "../components/About";
+import Services from "../components/Services";
 
 
 const Page: React.FC = () => {
@@ -9,6 +10,7 @@ const Page: React.FC = () => {
     <Home />
     <Navbar />
     <About />
+    <Services />
   </>
   )
 };
