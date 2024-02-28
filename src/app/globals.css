@@ -28,8 +28,8 @@
     @apply cursor-pointer;
   }
 
-  button {
+  /* button {
     @apply shadow-md shadow-stone-700 rounded-lg bg-[#b8a393] text-[#5c4339] p-2 uppercase;
-  }
+  } */
 
 }

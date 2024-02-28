@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const About: React.FC = () => {
   return (
-    <>
+    <div className="md:h-[1400px]">
     <div className="flex md:flex-row flex-col items-center md:justify-around md:p-5">
       <div className="relative hidden md:block">
         <Image src="/assets/massage.png" alt="Holistic massage" width={250} height={200} className="absolute z-10" />
@@ -35,7 +35,7 @@ const About: React.FC = () => {
         <Image src="/assets/polish.png" alt="Available Colors" width={250} height={200} className="relative top-[210px] right-[85px] z-20"/>
       </div>
     </div>
-  </>
+  </div>
   )
 }
 
